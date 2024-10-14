@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables</title>
+    <style>
+        /* 全局樣式設定 */
+        body {
+            max-width: 1440px;
+            max-height: 1024px;
+            margin: 0 auto;
+            background-color: #EDF2C5; /* 背景色 */
+            color: #7D7D7D; /* 文字顏色 */
+            font-family: 'Note Sans', sans-serif;       
+        }
+        .content {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #F7FBDA; /* 內容背景色 */
+            
+        }
+        .auth-buttons {
+            display: inline-block;
+            float: right;
+            margin-top: -110px;
+            margin-bottom: 20px;
+            
+        }
+        .section-title {
+            background-color: #778A50; /* 可以根據需要調整顏色 */
+            color: #EDF2C5; /* 標題文字顏色 */
+            padding: 5px;
+            width:563px
+            
+        } 
+        button {
+            background-color: transparent; /* 按鈕顏色 */
+            color: #EDF2C5;
+            border: 2px solid #778A50; ;
+            padding: 10px 10px;
+            cursor: pointer;
+            color: #778A50;
+            
+        }
+        header h1 {
+            margin: 0;
+            font-size: 44px;
+            color: #7D7D7D; /* 標題文字顏色 */
+            background-color: transparent;
+            text-align: left;
+            
+        }
+        header {
+            background-color: #778A50; /* 主色 */
+            padding: 5px;
+            text-align: left;
+        
+            
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 50px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #EDF2C5; /* 導覽列文字顏色 */
+            font-size: 16px;
+            
+        }
+        
+        
+        main {
+            
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+        .veg-gallery {
+            display: Flex-start;
+            justify-content: space-between;
+        }
+        .veg-gallery img {
+            width: 40%;
+            height: auto;/*3小圖*/
+        }
+        footer {
+            background-color: #778A50; /* 頁尾背景色 */
+            text-align: center;
+            padding: 30px;
+            color: #EDF2C5; /* 頁尾文字顏色 */
+            margin-top: 20px;
+        }
+        .info {
+            display: flex; /* 使用 Flexbox 來佈局 */
+            justify-content: space-between; /* 使兩側區塊均勻分佈 */
+            padding: 20px; /* 為整個區域添加內邊距 */
+        
+
+.contact {
+    margin-right: 0; /* 右側的 margin 重置為 0 */
+}
+    
+}
+
+.contact {
+    margin-right: 0; /* 右側的 margin 重置為 0 */
+}
+
+.vegetables, .contact {
+    width: 48%; /* 控制每個區塊的寬度 */
+}
+
+.veg-gallery {
+    display: flex; /* 使圖片並排顯示 */
+    justify-content: space-between; /* 在圖片之間平均分配空間 */
+    margin-top: 10px; /* 為圖片添加上邊距 */
+}
+
+.section-title {
+    background-color: #778A50; /* 可以根據需要調整顏色 */
+    color: #EDF2C5; /* 標題文字顏色 */
+    padding: 10px; /* 內邊距使背景更美觀 */
+    text-align: left; /* 標題置中 */
+}
+
+    </style>
+</head>
+<body>
+    <h1>Vegetables</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Online</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul> 
+            <div class="auth-buttons">
+                <button>LOGIN</button>
+                <button>JOIN</button>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="img_main_pumpkin.png" alt="Yellow Pumpkins">
+        </section>
+
+        <section class="info">
+            <div class="vegetables">
+                <h2 class="section-title">Vegetables</h2>
+                <div class="veg-gallery">
+                    <img src="img_vegetables_carrot.png" alt="Carrots">
+                    <img src="img_vegetables_corn.png" alt="Corn">
+                    <img src="img_vegetables_pepper.png" alt="Bell Pepper">
+                </div>
+            </div>
+            <div class="contact">
+                <h2 class="section-title">Contact</h2>
+                <p>For any questions or suggestions about Vegetables, Vegetables Club or your online order, contact Vegetables Customer Service via phone, email or post and we'll be happy to help.</p>
+                <p>Email: Vegetables@aabbcc.com</p>
+                <p>Phone: +886-123-456-789</p>
+            </div>
+        </section>
+        
+    
+    </main>
+
+    <footer>
+        <p>Copyright 2017 Vegetables cise / Design by Vegetables</p>
+    </footer>
+</body>
+</html>
